@@ -6,6 +6,7 @@
 .top_banner{
     background-color: #4EA0FF;
     background-image: url(./img/pattern.png); 
+    background-size: contain;
 }
 #logo_banner{
     width: 150px;
@@ -24,7 +25,7 @@ img{
 .text{
     color: #A0A0A0;
     }
- text{
+ .minimal{
     font-size: small;
  }   
 
@@ -32,9 +33,23 @@ img{
     color:#4EA0FF;
 }
 
-.paragrafo{
+.space{
     margin: 2rem 0 ;
 }
 .lista{
     padding-left: 1.30rem;
 }   
+
+p>span{
+ background-color: yellow;
+ padding: 1px;
+}
+
+thead{
+    background-color: #4EA0FF;
+    color: white;
+}
+
+
+   
+   
